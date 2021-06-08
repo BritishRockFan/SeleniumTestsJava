@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: ru.yandexEfir.YandexEfirTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 77.273 s <<< FAILURE! - in ru.yandexEfir.YandexEfirTests
+checkTextInMyPurchases(ru.yandexEfir.YandexEfirTests)  Time elapsed: 3.259 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="stream-purchases__layout"]/div/div/div/div[1]"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Nikita.local', ip: 'fe80:0:0:0:ce0:110c:16de:ac11%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/gz/_nxg5vtn7vb...}, goog:chromeOptions: {debuggerAddress: localhost:59105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2dd2bf14309e6dc395d7b4f40f34276b
+*** Element info: {Using=xpath, value=//*[@id="stream-purchases__layout"]/div/div/div/div[1]}
+	at ru.yandexEfir.YandexEfirTests.checkTextInMyPurchases(YandexEfirTests.java:47)
+
+checkAssetPlayback(ru.yandexEfir.YandexEfirTests)  Time elapsed: 19.419 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'stream-watching_state_playing')]"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Nikita.local', ip: 'fe80:0:0:0:ce0:110c:16de:ac11%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/gz/_nxg5vtn7vb...}, goog:chromeOptions: {debuggerAddress: localhost:59172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f69b81f58a321e6d4deb392f26267b0
+*** Element info: {Using=xpath, value=//div[contains(@class,'stream-watching_state_playing')]}
+	at ru.yandexEfir.YandexEfirTests.checkAssetPlayback(YandexEfirTests.java:95)
+
