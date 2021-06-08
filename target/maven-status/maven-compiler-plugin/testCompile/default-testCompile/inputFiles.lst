@@ -1,9 +1,9 @@
 /Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/YandexEfirTests.java
-/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/MovieCardMetadata.java
 /Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/pages/YandexMainPage.java
+/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/helpers/SearchResults.java
 /Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/pages/YandexAllServicesPage.java
-/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/DocumentParser.java
-/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/SearchResults.java
+/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/helpers/MovieCardMetadata.java
+/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/helpers/TestCase.java
 /Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/pages/YandexEfirPage.java
 /Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/constants/Constants.java
-/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/TestCase.java
+/Users/nikitasmirnov/IdeaProjects/SeleniumTests/src/test/java/ru/yandexEfir/helpers/DocumentParser.java

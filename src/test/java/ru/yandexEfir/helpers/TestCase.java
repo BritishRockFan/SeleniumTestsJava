@@ -26,13 +26,12 @@ public class TestCase {
 
     @Before
     public void setup() {
-//        ChromeOptions opt = new ChromeOptions();
-//        opt.setHeadless(true);
         driver = new ChromeDriver(); //setup the driver
         yandexMainPage = PageFactory.initElements(driver, YandexMainPage.class);
         yandexAllServicesPage = PageFactory.initElements(driver, YandexAllServicesPage.class);
         yandexEfirPage = PageFactory.initElements(driver, YandexEfirPage.class);
         documentParser = new DocumentParser(driver);
+        JSWaiter.setDriver(driver);
     }
 
     @After

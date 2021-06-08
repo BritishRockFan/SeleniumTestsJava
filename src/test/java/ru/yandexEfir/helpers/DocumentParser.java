@@ -35,7 +35,10 @@ public class DocumentParser {
         String url = "https://yandex.ru/efir?stream_active=serp&search_text=" + request;
 
         driver.get(url);
-        Thread.sleep(5000); // remove
+        Thread.sleep(5000);
+
+//        JSWaiter.setDriver(driver);
+//        JSWaiter.waitJQueryAngular();
         Document doc = Jsoup.parse(driver.getPageSource());
 
         Elements results = doc.getElementsByClass("Feed-Item Feed-Item_type_card Grid-Item");

@@ -10,7 +10,7 @@ import ru.yandexEfir.pages.YandexEfirPage;
 
 import java.io.IOException;
 
-import static ru.yandexEfir.constants.Constants.efirLink;
+import static ru.yandexEfir.constants.Constants.EFIR_LINK;
 
 public class YandexEfirTests extends TestCase {
 
@@ -30,7 +30,7 @@ public class YandexEfirTests extends TestCase {
                 .pressMoreButton()
                 .selectAllServices();
         yandexAllServicesPage
-                .clickLink(efirLink);
+                .clickLink(EFIR_LINK);
         yandexEfirPage
                 .checkThatOpened();
     }
@@ -107,13 +107,13 @@ public class YandexEfirTests extends TestCase {
                 .open()
                 .checkThatOpened()
                 .search(request);
-        Assert.assertEquals(YandexEfirPage.searchResultsCount, YandexEfirPage.someResultApiArray.size());
+        Assert.assertEquals(YandexEfirPage.searchResultsCount, YandexEfirPage.arrayWithMoviesInResults.size());
 
-        for (int i = 0; i < YandexEfirPage.someResultApiArray.size() - 1; i++) {
-            if (YandexEfirPage.someResultApiArray.get(i).name.equals(request)) {
-                Assert.assertEquals(YandexEfirPage.someResultApiArray.get(i).name, YandexEfirPage.firstAssetName);
-                Assert.assertEquals(YandexEfirPage.someResultApiArray.get(i).meta, YandexEfirPage.meta);
-                Assert.assertEquals(YandexEfirPage.someResultApiArray.get(i).meta, meta);
+        for (int i = 0; i < YandexEfirPage.arrayWithMoviesInResults.size() - 1; i++) {
+            if (YandexEfirPage.arrayWithMoviesInResults.get(i).name.equals(request)) {
+                Assert.assertEquals(YandexEfirPage.arrayWithMoviesInResults.get(i).name, YandexEfirPage.firstAssetName);
+                Assert.assertEquals(YandexEfirPage.arrayWithMoviesInResults.get(i).meta, YandexEfirPage.meta);
+                Assert.assertEquals(YandexEfirPage.arrayWithMoviesInResults.get(i).meta, meta);
                 return;
             } else {
                 Assert.fail("There's no requested asset");

@@ -1,5 +1,9 @@
 ru/yandexEfir/pages/YandexEfirPage.class
 ru/yandexEfir/pages/YandexMainPage.class
+ru/yandexEfir/helpers/SearchResults.class
 ru/yandexEfir/YandexEfirTests.class
 ru/yandexEfir/pages/YandexAllServicesPage.class
+ru/yandexEfir/helpers/MovieCardMetadata.class
+ru/yandexEfir/helpers/DocumentParser.class
 ru/yandexEfir/constants/Constants.class
+ru/yandexEfir/helpers/TestCase.class
